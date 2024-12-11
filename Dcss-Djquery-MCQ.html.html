@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>W3CSS</title>
+    <link rel="stylesheet" href="w3.css">
+    <script src="jquery.js"></script>
+    <style>
+        *{}
+        #fol{
+            /* background-color: aquamarine; */
+            margin-bottom: 50px;
+            list-style-type: disc;
+        }
+        #fol #fli   {
+            font-weight: 600;
+            font-size:18px;
+        }
+        #sol{
+            margin-left: -30px;
+        }
+        #sol li{
+            line-height: 40px;
+            font-size: 18px;
+        }
+        #sol input{
+            margin-right: 8px;
+        }
+        #sol p{
+            display: none;
+            color: rgb(1, 83, 4);
+            font-size: 18px;
+            font-weight: normal;
+            /* line-height: 1px; */
+            margin: 5px 0px 5px 0px;
+            margin-left: -20px;
+        }
+        #sol button{
+            /* background-color: rgb(164, 164, 164); */
+            /* margin-left: -20px; */
+            border: 1px solid;
+            border-radius: 5px;
+            margin-top: 7px;
+            height: 30px;
+            line-height: 10px;
+            width: 80px;
+            padding: 5px;
+            font-size: 14px;
+            font-weight: 600;
+        }
+        #sol .btn {
+            margin: 0px 10px 0px -25px ;
+            /* background-color: red; */
+        }
+        .w3{
+            width: 730px;
+        }
+    
+    </style>
+</head>
+<body>
+    <div class="w3-container w3">
+        <h2 class="w3-container w3-green">JQuery MCS Questions</h2>
+        <h4 class="w3-container w3-grey">Answer any <b>5 Question</b> out of 10 <b>:</b></h4>
+        <ol id="fol">
+            <li id="fli">Who developed jQuery, and in which year it was first released?</li>
+            <ol id="sol" type="a">
+                <lable><li><input type="radio" name="1">John Richard in 2001</li>
+                <lable><li><input type="radio" name="1">Mark Bensman in 2004</li>
+                <lable><li><input type="radio" name="1">John Resig in 2006</li>
+                <lable><li><input type="radio" name="1">None of the above</li>
+                <p class="ans1">John Resig in 2006</p>
+                <button class="show1 btn">Show</button>
+                <button id="hide1">Hide</button>
+            </ol>
+        </ol>
+        
+        <ol id="fol">
+            <li id="fli">jQuery is a ________.</li>
+            <ol id="sol" type="a">
+                <lable><li><input type="radio" name="2">JavaScript method</li>
+                <lable><li><input type="radio" name="2">JavaScript library</li>
+                <lable><li><input type="radio" name="2">JSON library</li>
+                <lable><li><input type="radio" name="2">PHP method</li>
+                <p class="ans2">JavaScript library</p>
+                <button class="show2 btn">Show</button>
+                <button id="hide2">Hide</button>
+            </ol>
+        </ol>
+        
+        <ol id="fol">
+            <li id="fli"> Which of the following sign is used as a shortcut for jQuery?</li>
+            <ol id="sol" type="a">
+                <lable><li><input type="radio" name="3">the % sign</li>
+                <lable><li><input type="radio" name="3">the & sign...</li>
+                <lable><li><input type="radio" name="3">the $ sign</li>
+                <lable><li><input type="radio" name="3">the @ sign</li>
+                <p class="ans3">the $ sign</p>
+                <button class="show3 btn">Show</button>
+                <button id="hide3">Hide</button>
+            </ol>
+        </ol>
+        
+        <ol id="fol">
+            <li id="fli">$(this) in jQuery is used when -</li>
+            <ol id="sol" type="a">
+                <lable><li><input type="radio" name="4">an HTML element references the entire document</li>
+                <lable><li><input type="radio" name="4">an HTML element references its own action</li>
+                <lable><li><input type="radio" name="4">an HTML element references the action of its parent element</li>
+                <lable><li><input type="radio" name="4">All of the above</li>
+                <p class="ans4"> an HTML element references its own action</p>
+                <button class="show4 btn">Show</button>
+                <button id="hide4">Hide</button>
+            </ol>
+        </ol>
+        
+        <ol id="fol">
+            <li id="fli">Which of the following jQuery method is used to hide the selected elements?</li>
+            <ol id="sol" type="a">
+                <lable><li><input type="radio" name="5">The hidden() method</li>
+                <lable><li><input type="radio" name="5">The hide() method</li>
+                <lable><li><input type="radio" name="5">The visible(false) method</li>
+                <lable><li><input type="radio" name="5">The display(none) method</li>
+                <p class="ans5">The hide() method</p>
+                <button class="show5 btn">Show</button>
+                <button id="hide5">Hide</button>
+            </ol>
+        </ol>
+        
+        <ol id="fol">
+            <li id="fli"> Which jQuery method is used to set one or more style properties to the selected element?</li>
+            <ol id="sol" type="a">
+                <lable><li><input type="radio" name="6">The html() method</li>
+                <lable><li><input type="radio" name="6">The style() method</li>
+                <lable><li><input type="radio" name="6">The css() method</li>
+                <lable><li><input type="radio" name="6">All of the above</li>
+                <p class="ans6">The css() method</p>
+                <button class="show6 btn">Show</button>
+                <button id="hide6">Hide</button>
+            </ol>
+        </ol>
+        
+        <ol id="fol">
+            <li id="fli">Which of the following jQuery method can be used to deal with the name conflicts?</li>
+            <ol id="sol" type="a">
+                <lable><li><input type="radio" name="7">The conflict() method</li>
+                <lable><li><input type="radio" name="7">The nameConflict() method</li>
+                <lable><li><input type="radio" name="7">The noConflict() method</li>
+                <lable><li><input type="radio" name="7">None of the above</li>
+                <p class="ans7">The noConflict() method</p>
+                <button class="show7 btn">Show</button>
+                <button id="hide7">Hide</button>
+            </ol>
+        </ol>
+        
+        <ol id="fol">
+            <li id="fli">The correct syntax to set the background color of all h1 elements to yellow in jQuery -</li>
+            <ol id="sol" type="a">
+                <lable><li><input type="radio" name="8">$("h1").style("background-color","yellow");</li>
+                <lable><li><input type="radio" name="8">$("h1").html("background-color","yellow");</li>
+                <lable><li><input type="radio" name="8">$("h1").css("background-color","yellow");</li>
+                <lable><li><input type="radio" name="8">$("h1").layout("background-color","yellow")</li>
+                <p class="ans8">$("h1").css("background-color","yellow");r</p>
+                <button class="show8 btn">Show</button>
+                <button id="hide8">Hide</button>
+            </ol>
+        </ol>
+        
+        <ol id="fol">
+            <li id="fli">$("h1").css("background-color","yellow");</li>
+            <ol id="sol" type="a">
+                <lable><li><input type="radio" name="9">unbind() method</li>
+                <lable><li><input type="radio" name="9">attach() method</li>
+                <lable><li><input type="radio" name="9">bind() method</li>
+                <lable><li><input type="radio" name="9">None of the above</li>
+                <p class="ans9">bind() method</p>
+                <button class="show9 btn">Show</button>
+                <button id="hide9">Hide</button>
+            </ol>
+        </ol>
+        
+        <ol id="fol">
+            <li id="fli">The jQuery method used to perform an asynchronous HTTP request -</li>
+            <ol id="sol" type="a">
+                <lable><li><input type="radio" name="10">jQuery ajaxSetup() method</li>
+                <lable><li><input type="radio" name="10">jQuery ajaxSync() method</li>
+                <lable><li><input type="radio" name="10">jQuery ajax() method</li>
+                <lable><li><input type="radio" name="10">None of the above</li>
+                <p class="ans10">Answer</p>
+                <button  class="show10 btn">Show</button>
+                <button id="hide10">Hide</button>
+            </ol>
+        </ol>
+    </div>
+
+
+    
+    <script>
+        $(document).ready(function(){
+            
+            $("#hide1").click(function(){ $(".ans1").hide() });
+            $(".show1").click(function(){ $(".ans1").show() });
+                    
+            $("#hide2").click(function(){ $(".ans2").hide() });
+            $(".show2").click(function(){ $(".ans2").show() });
+            
+            $("#hide3").click(function(){ $(".ans3").hide() });
+            $(".show3").click(function(){ $(".ans3").show() });
+
+            $("#hide4").click(function(){ $(".ans4").hide() });
+            $(".show4").click(function(){ $(".ans4").show() });
+
+            $("#hide5").click(function(){ $(".ans5").hide() });
+            $(".show5").click(function(){ $(".ans5").show() });
+
+            $("#hide6").click(function(){ $(".ans6").hide() });
+            $(".show6").click(function(){ $(".ans6").show() });
+
+            $("#hide7").click(function(){ $(".ans7").hide() });
+            $(".show7").click(function(){ $(".ans7").show() });
+
+            $("#hide8").click(function(){ $(".ans8").hide() });
+            $(".show8").click(function(){ $(".ans8").show() });
+
+            $("#hide9").click(function(){ $(".ans9").hide() });
+            $(".show9").click(function(){ $(".ans9").show() });
+
+            $("#hide10").click(function(){$ (".ans10").hide() });
+            $(".show10").click(function(){ $(".ans10").show() });
+
+        });
+    </script>
+</body>
+</html>
